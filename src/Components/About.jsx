@@ -22,7 +22,7 @@ const About = () => {
             />
           </svg>
         </div>
-        <h1 className="py-4 text-4xl font-extrabold text-gray-800">
+        <h1 className="py-4 text-4xl font-extrabold text-gray-800 xl:text-5xl">
           Stay on top customer support
         </h1>
         <p className="sm:max-w-xl font-medium text-gray-500 mb-6 w-full">

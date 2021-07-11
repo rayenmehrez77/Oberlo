@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <div className="mt-16 flex justify-between items-center">
       <img src={image} alt="" className="rounded mr-8 hidden lg:inline-block" />
-      <div className="mt-16 lg:max-8 mx-4 w-full">
+      <div className="mt-16 lg:max-8 mx-4 w-full xl:ml-64">
         <div className="p-2 h-8  w-8 gradient text-white flex justify-center items-center rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const Service = () => {
             />
           </svg>
         </div>
-        <h1 className="py-4 text-4xl font-extrabold text-gray-800">
+        <h1 className="py-4 text-4xl font-extrabold text-gray-800 xl:text-5xl">
           Stay on top customer support
         </h1>
         <p className="sm:max-w-xl font-medium text-gray-500 mb-6">

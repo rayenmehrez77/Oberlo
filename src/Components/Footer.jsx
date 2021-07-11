@@ -74,9 +74,11 @@ const Footer = () => {
           </form>{" "}
         </div>
       </div>
-      <div className="flex items-center justify-between mx-4 lg:mx-8 flex-wrap mt-32 border-t-2 pt-4">
-        <p className="font-medium text-gray-500">© 2021 All rights reserved.</p>
-        <div className="flex items-center space-x-6">
+      <div className="flex items-center sm:justify-between mx-4 lg:mx-8 flex-wrap mt-32 border-t-2 pt-4 justify-center">
+        <p className="font-medium text-gray-500 sm:text-md text-sm">
+          © 2021 All rights reserved.
+        </p>
+        <div className="flex items-center space-x-6 m-6">
           <a href="/">
             <img src={fb} alt="" className="h-6 w-6" />
           </a>
@@ -91,12 +93,12 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <h3 className="text-xl font-semibold text-center mt-8">
+      <h3 className="text-md font-semibold text-center mt-8">
         Made By{" "}
         <a
           target="_blank"
           href="https://rayenmehrez.me/"
-          className="text-purple-800"
+          className="text-purple-800 font-bold"
         >
           Rayen Mehrez
         </a>
