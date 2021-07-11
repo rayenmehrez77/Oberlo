@@ -5,6 +5,7 @@ import SignUpPage from "./Pages/SignUpPage";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
 import Footer from "./Components/Footer";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/signup" component={SignUpPage} />
       </Switch>
       <Footer />
+      <MessengerCustomerChat pageId="108570531499735" appId="503342847441521" />
     </div>
   );
 };
